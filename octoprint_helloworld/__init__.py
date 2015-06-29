@@ -21,8 +21,8 @@ class HelloWorldPlugin(octoprint.plugin.StartupPlugin,
 
 	def get_assets(self):
  		return dict(
-		js=["js/helloworld.js"]
-		css=["css/helloworld.css"]
+			js=["js/helloworld.js"],
+			css=["css/helloworld.css"]
 		)
 
 __plugin_name__ = "Hello World"
